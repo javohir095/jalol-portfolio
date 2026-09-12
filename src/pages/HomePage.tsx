@@ -112,7 +112,7 @@ export default function HomePage() {
         {/* Stats row */}
         <div className="mt-16 pt-8 border-t border-ink-200 grid grid-cols-3 gap-4 animate-fade-up animate-delay-300">
           {[
-            { label: 'Yosh', value: new Date().getFullYear() - 2010 },
+            { label: 'Yosh', value: new Date().getFullYear() - 2008 },
             { label: "Blog post", value: posts.length + '+' },
             { label: 'Loyihalar', value: '5+' },
           ].map(s => (
