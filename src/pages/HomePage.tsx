@@ -59,7 +59,7 @@ export default function HomePage() {
           <div className="mb-4">
             <p className="text-ink-400 font-mono text-sm tracking-widest uppercase mb-1">Salom, men —</p>
             <h1 className="font-display text-5xl sm:text-6xl font-extrabold text-ink-950 tracking-tight leading-none">
-              Kamolov Jalol
+              Kamolov Jalolbek
             </h1>
           </div>
 
@@ -187,7 +187,7 @@ export default function HomePage() {
           </blockquote>
           <div className="flex items-center gap-4">
             <div>
-              <p className="font-semibold text-white">Kamolov Jalol</p>
+              <p className="font-semibold text-white">Kamolov Jalolbek</p>
               <p className="text-ink-400 text-sm">Frontend Developer · Toshkent</p>
             </div>
           </div>

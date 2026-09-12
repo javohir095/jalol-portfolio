@@ -5,7 +5,7 @@ export default function Footer() {
     <footer className="border-t border-ink-200 mt-24 py-10">
       <div className="max-w-4xl mx-auto px-5 flex flex-col sm:flex-row items-center justify-between gap-4 text-sm text-ink-400">
         <span className="font-mono">
-          © {year} <span className="text-ink-600 font-medium">Kamolov Jalol</span>
+          © {year} <span className="text-ink-600 font-medium">Kamolov Jalolbek</span>
         </span>
         <div className="flex items-center gap-5">
           <a

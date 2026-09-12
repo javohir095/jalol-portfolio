@@ -18,7 +18,7 @@ export default function AboutPage() {
           J
         </div>
         <div>
-          <h2 className="font-display text-2xl font-bold text-ink-950 mb-1">Kamolov Jalol</h2>
+          <h2 className="font-display text-2xl font-bold text-ink-950 mb-1">Kamolov Jalolbek</h2>
           <p className="text-accent font-mono text-sm mb-3">Frontend Developer · Toshkent, O'zbekiston</p>
           <p className="text-ink-600 leading-relaxed">
             {profile?.bio}

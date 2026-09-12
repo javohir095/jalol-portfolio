@@ -36,7 +36,7 @@ export default function Navbar() {
           to="/"
           className="font-display font-bold text-lg text-ink-950 tracking-tight hover:text-accent transition-colors"
         >
-          JJ<span className="text-accent">.</span>
+          JK<span className="text-accent">.</span>
         </Link>
 
         {/* Desktop nav */}

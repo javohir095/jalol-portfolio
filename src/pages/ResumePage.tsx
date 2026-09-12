@@ -31,7 +31,7 @@ export default function ResumePage() {
         <div className="flex items-start justify-between flex-wrap gap-4">
           <div>
             <h1 className="font-display text-4xl sm:text-5xl font-extrabold text-ink-950 tracking-tight mb-2">
-              Kamolov Jalol
+              Kamolov Jalolbek
             </h1>
             <p className="text-ink-500 font-mono">Frontend Developer · Toshkent</p>
           </div>

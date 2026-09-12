@@ -96,7 +96,7 @@ export default function PostPage() {
             {post.readTime} daqiqa o'qish
           </div>
           <span>·</span>
-          <span>Kamolov Jalol</span>
+          <span>Kamolov Jalolbek</span>
         </div>
 
         {/* Content */}
@@ -126,7 +126,7 @@ export default function PostPage() {
             J
           </div>
           <div>
-            <p className="font-semibold text-ink-950">Kamolov Jalol</p>
+            <p className="font-semibold text-ink-950">Kamolov Jalolbek</p>
             <p className="text-ink-500 text-sm mt-0.5">Frontend Developer · Toshkent</p>
             <p className="text-ink-500 text-sm mt-2 leading-relaxed">
               Frontend dasturchi va texnologiya ishqibozi. React va FastAPI bilan CRM tizimlar qurishni yaxshi ko'raman. Bu blog — texnik va hayotiy fikrlarim uchun maydon.
