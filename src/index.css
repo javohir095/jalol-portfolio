@@ -1,0 +1,114 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  *, *::before, *::after {
+    box-sizing: border-box;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-ink-50 text-ink-900 font-sans antialiased;
+    font-feature-settings: 'kern' 1, 'liga' 1;
+  }
+
+  ::selection {
+    @apply bg-accent text-white;
+  }
+
+  ::-webkit-scrollbar {
+    width: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    @apply bg-ink-100;
+  }
+  ::-webkit-scrollbar-thumb {
+    @apply bg-ink-300 rounded-full;
+  }
+}
+
+@layer components {
+  /* Prose styles for blog content */
+  .prose-content h1 {
+    @apply font-display text-3xl font-bold text-ink-950 mt-8 mb-4;
+  }
+  .prose-content h2 {
+    @apply font-display text-2xl font-semibold text-ink-900 mt-8 mb-3 pb-2 border-b border-ink-100;
+  }
+  .prose-content h3 {
+    @apply font-display text-xl font-semibold text-ink-800 mt-6 mb-2;
+  }
+  .prose-content p {
+    @apply text-ink-700 leading-relaxed mb-4;
+  }
+  .prose-content strong {
+    @apply text-ink-900 font-semibold;
+  }
+  .prose-content em {
+    @apply text-ink-600 italic;
+  }
+  .prose-content ul {
+    @apply list-none mb-4 space-y-2;
+  }
+  .prose-content ul li {
+    @apply text-ink-700 pl-5 relative;
+  }
+  .prose-content ul li::before {
+    content: '—';
+    @apply absolute left-0 text-accent font-mono;
+  }
+  .prose-content table {
+    @apply w-full border-collapse mb-6 text-sm;
+  }
+  .prose-content th {
+    @apply bg-ink-100 text-ink-800 font-semibold px-4 py-2 text-left border border-ink-200;
+  }
+  .prose-content td {
+    @apply px-4 py-2 border border-ink-200 text-ink-700;
+  }
+  .prose-content tr:nth-child(even) td {
+    @apply bg-ink-50;
+  }
+
+  .code-block {
+    @apply bg-ink-950 text-ink-100 rounded-xl p-5 mb-6 overflow-x-auto font-mono text-sm leading-relaxed;
+  }
+  .inline-code {
+    @apply bg-ink-100 text-accent font-mono text-[0.85em] px-1.5 py-0.5 rounded;
+  }
+
+  /* Skill bar */
+  .skill-bar {
+    @apply h-1.5 bg-ink-200 rounded-full overflow-hidden;
+  }
+  .skill-bar-fill {
+    @apply h-full bg-accent rounded-full transition-all duration-1000 ease-out;
+  }
+
+  /* Tag pill */
+  .tag-pill {
+    @apply inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-mono font-medium
+           bg-accent-light text-accent border border-blue-200;
+  }
+}
+
+/* Animations */
+.animate-delay-100 { animation-delay: 100ms; }
+.animate-delay-200 { animation-delay: 200ms; }
+.animate-delay-300 { animation-delay: 300ms; }
+.animate-delay-400 { animation-delay: 400ms; }
+.animate-delay-500 { animation-delay: 500ms; }
+
+.animate-fade-up {
+  opacity: 0;
+  animation: fadeUp 0.6s ease forwards;
+}
+
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(18px); }
+  to   { opacity: 1; transform: translateY(0); }
+}

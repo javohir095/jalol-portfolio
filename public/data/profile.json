@@ -1,0 +1,29 @@
+{
+    "name": "Kamolov Jalol",
+    "nameEn": "Kamolov Jalol",
+    "role": "Frontend Developer",
+    "tagline": "Men texnik bo'lmagan narsalar haqida yozaman",
+    "taglineEn": "I write about non-technical stuff",
+    "bio": "Salom! Men Jalolman — Frontend dasturchi va texnologiya ishqibozi. React va FastAPI bilan CRM tizimlar qurishni yaxshi ko'raman. Kod yozishdan tashqari, hayot, kitoblar va karyera haqida o'z fikrlarni baham ko'raman.",
+    "birthYear": 2008,
+    "location": "O'zbekiston",
+    "email": "navisharkus@gmail.com",
+    "phone": "+998771009030",
+    "socialLinks": {
+        "github": "https://github.com/SHarKing0",
+        "telegram": "https://t.me/JustJavas_Fun",
+        "email": "mailto:navisharkus@gmail.com"
+    },
+    "skills": [
+        { "name": "React", "level": 85 },
+        { "name": "Tailwind", "level": 90 },
+        { "name": "FastAPI", "level": 75 },
+        { "name": "PostgreSQL", "level": 78 },
+        { "name": "REST API", "level": 85 },
+        { "name": "JavaScript", "level": 96 },
+        { "name": "Linux", "level": 70 },
+        { "name": "Git", "level": 82 }
+    ],
+    "currentFocus": "Frontend tizimlar va API arxitekturasi",
+    "openToWork": true
+}
